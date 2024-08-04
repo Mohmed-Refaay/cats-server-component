@@ -27,7 +27,6 @@ export async function CatsList() {
           ))}
         </tbody>
       </Table>
-
     </div>
   );
 }

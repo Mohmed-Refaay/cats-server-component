@@ -8,4 +8,3 @@ export const catSchema = z.object({
 });
 
 export type Cat = z.TypeOf<typeof catSchema> & { id: number };
-
